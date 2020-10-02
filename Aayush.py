@@ -3,7 +3,7 @@
 total = 0
   
 # creating a list 
-list1 = [11, 5, 17, 18, 23]  
+list1 = [10, 6, 18, 17, 23]  
   
 # Iterate each element in list 
 # and add them in variale total 
