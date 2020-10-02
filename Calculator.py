@@ -18,20 +18,20 @@ def divide(x, y):
     return x / y
 
 
-print("Select operation.")
-print("1.Add")
-print("2.Subtract")
-print("3.Multiply")
-print("4.Divide")
+print("Select Operation :")
+print("1) Add")
+print("2) Subtract")
+print("3) Multiply")
+print("4) Divide")
 
 while True:
     # Take input from the user
-    choice = input("Enter choice(1/2/3/4): ")
+    choice = input("Enter Choice(1/2/3/4) : ")
 
     # Check if choice is one of the four options
     if choice in ('1', '2', '3', '4'):
-        num1 = float(input("Enter first number: "))
-        num2 = float(input("Enter second number: "))
+        num1 = float(input("Enter first number : "))
+        num2 = float(input("Enter second number : "))
 
         if choice == '1':
             print(num1, "+", num2, "=", add(num1, num2))
@@ -49,12 +49,12 @@ while True:
         print("Invalid Input")
 Output
 
-Select operation.
-1.Add
-2.Subtract
-3.Multiply
-4.Divide
-Enter choice(1/2/3/4): 3
-Enter first number: 15
-Enter second number: 14
+Select Operation :
+1) Add
+2) Subtract
+3) Multiply
+4) Divide
+Enter choice(1/2/3/4) : 3
+Enter first number : 15
+Enter second number : 14
 15.0 * 14.0 = 210.0
