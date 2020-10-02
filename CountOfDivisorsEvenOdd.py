@@ -11,7 +11,7 @@ def NumOfDivisor(n):
 	else:
 		print("Even")
 if __name__ == '__main__':
-    print("Enter a number : ", end=" ")
+    print("Enter a Number : ", end=" ")
     n = int(input())
-    print("The count of divisors of", n, "is:", end=" ")
+    print("The Count of Divisors of", n, "is :", end=" ")
     NumOfDivisor(n)
