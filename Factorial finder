@@ -5,13 +5,13 @@
 num = 7
 
 # To take input from the user
-#num = int(input("Enter any number: "))
+#num = int(input("Enter any number : "))
 
 factorial = 1
 
 # check if the number is negative, positive or zero
 if num < 0:
-   print("Sorry it is prime number, factorial does not exist for negative numbers")
+   print("Sorry it is negative number, factorial does not exist for negative numbers")
 elif num == 0:
    print("The factorial of 0 is 1")
 else:
